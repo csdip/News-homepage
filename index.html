@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News home main</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- <div class="overlay"></div> -->
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="nav-wrapper">
+                    <div class="navbar">
+                        <a href="#" class="logo"><img src="img/logo.svg" alt="logo"></a>
+                        <button class="nav-btn"><span></span></button>
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">New</a></li>
+                                <li><a href="#">Popular</a></li>
+                                <li><a href="#">Trending</a></li>
+                                <li><a href="#">Categories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="wrapper">
+                    <div class="main">
+                        <div class="hot-post">
+                            <div class="thumbnail">
+                                <img src="img/image-web-3-desktop.jpg" alt="thumbnail">
+                            </div>
+                            <div class="hot-post-bio">
+                                <h1 class="hot-post-title">The Bright Future of Web 3.0?</h1>
+                                <div class="hot-post-info">
+                                    <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                                        But is it really fulfilling its promise?</p>
+                                    <a href="#" class="btn">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar">
+                        <div class="sidebar-widget">
+                                <h1 class="sidebar-title">New</h1>
+                            <div class="sidebar-posts">
+                                <h2><a href="" class="sidebar-posts-title">Hydrogen VS Electric Cars</a></h2>
+                                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                            </div>
+                            <div class="sidebar-posts">
+                                <h2><a href="" class="sidebar-posts-title">The Downsides of AI Artistry</a></h2>
+                                <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                            </div>
+                            <div class="sidebar-posts">
+                                <h2><a href="" class="sidebar-posts-title">Is VC Funding Drying Up?</a></h2>
+                                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="blog-posts">
+        <div class="container">
+            <div class="row">
+                <div class="wrapper">
+                    <div class="single-post">
+                        <div class="post-thumbnail"><img src="img/image-retro-pcs.jpg" alt=""></div>
+                        <div class="post-bio">
+                            <span>01</span>
+                            <h3><a href="#" class="post-title">Reviving Retro PCs</a></h3>
+                            <p>What happens when old PCs are given modern upgrades?</p>
+                        </div>
+                    </div>
+                    <div class="single-post">
+                        <div class="post-thumbnail"><img src="img/image-top-laptops.jpg" alt=""></div>
+                        <div class="post-bio">
+                            <span>02</span>
+                            <h3><a href="#" class="post-title">Top 10 Laptops of 2022</a></h3>
+                            <p>Our best picks for various needs and budgets.</p>
+                        </div>
+                    </div>
+                    <div class="single-post">
+                        <div class="post-thumbnail"><img src="img/image-gaming-growth.jpg" alt=""></div>
+                        <div class="post-bio">
+                            <span>03</span>
+                            <h3><a href="#" class="post-title">The Growth of Gaming</a></h3>
+                            <p>How the pandemic has sparked fresh opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+<script type="text/javascript">
+    const navBtn = document.querySelector('.nav-btn')
+    const mainMenu = document.querySelector('.main-menu')
+    const overlay = document.querySelector('.overlay')
+
+    navBtn.addEventListener('click', ()=>{
+        navBtn.classList.toggle('active')
+        mainMenu.classList.toggle('active')
+        overlay.classList.toggle('active')
+    })
+</script>
+</html>
