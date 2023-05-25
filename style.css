@@ -73,8 +73,6 @@ p{
 /* Nav Css Styles */
 nav{
     padding-top: 80px;
-    position: relative;
-    overflow: hidden;
     background-color: var(--color-white);
 }
 
@@ -379,7 +377,6 @@ section .single-post .post-bio .post-title:hover{
     nav .main-menu {
         position: absolute;
         top: 0;
-        right: -1000%;
         width: 75%;
         height: 100vh;
         opacity: 0;
