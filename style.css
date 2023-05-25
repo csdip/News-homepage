@@ -74,6 +74,7 @@ p{
 nav{
     padding-top: 80px;
     position: relative;
+    overflow: hidden;
     background-color: var(--color-white);
 }
 
