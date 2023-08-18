@@ -346,6 +346,9 @@ section .single-post .post-bio .post-title:hover{
     }
 }
 @media (max-width:768px) {
+	body.nav-active{
+        overflow-y: hidden;
+    }
     .overlay.active {
         position: absolute;
         top: 0;
